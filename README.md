@@ -60,19 +60,16 @@ spring.thymeleaf.cache=false
 # Server
 server.port=8080
 
-git clo![login](https://github.com/user-attachments/assets/7ae86dd2-1079-45ec-94a0-f28cdd198f4f)
-ne https://github.com/your-username/employee-management-webapp.git
+# Clone the Repository
+git clone https://github.com/your-username/employee-management-webapp.git
 cd employee-management-webapp
 
-📸 Screenshots
+# Build and Run
+mvn clean install
+mvn spring-boot:run
 
-
-
-![Uploading login.png…]()
-
-
-![register](https://github.com/user-attachments/assets/56aa9087-c486-4c09-8b8c-a4916a896d40)
-
+# Access in Browser
+http://localhost:8080/login
 
 
 🔒 Security
